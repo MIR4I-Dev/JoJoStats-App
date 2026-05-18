@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ✨ JoJo Stats Application
 
 Un proyecto fullstack diseñado para visualizar las estadísticas de los Stands de *JoJo's Bizarre Adventure* de forma estética, clara y moderna. A diferencia de las wikis tradicionales, este proyecto prioriza la experiencia visual y la legibilidad de los atributos de cada Stand.
@@ -45,3 +46,7 @@ El corazón de este proyecto es la **estética**. Mientras que otros sitios util
 
 ---
 Producido con el poder de un Stand de tipo **Fullstack**.
+=======
+# JoJoStats-App
+Full-stack application to display the stats of your favorite JoJo characters in an aesthetically pleasing and fast way.
+>>>>>>> 6b1547611096ad9e7d3d97e4edcde33aa0bb8f87
