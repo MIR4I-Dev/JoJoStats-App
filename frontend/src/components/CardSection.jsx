@@ -15,7 +15,7 @@ export function CardSection() {
 
     return (
         <>
-            <div className="p-4 mt-28 text-white">
+            <div className="p-4 mt-30 text-white">
                 <Filters />
 
                 {isLoading ? (
@@ -34,8 +34,8 @@ export function CardSection() {
                             <StandCardSkeleton key={index} />
                         ))
                     ) : (
-                        data.map((stand) => (
-                            <StandCard key={stand.id} stand={stand} />
+                        data.map((stand, index) => (
+                            <StandCard key={stand.id} stand={stand} index={index} />
                         ))
                     )}
                 </section>
