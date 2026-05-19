@@ -24,7 +24,7 @@ export function CardSection() {
                     <Pagination />
                 )}
 
-                {data.length === 0 && !isLoading && (
+                {data.length === 0 && !isLoading && !error (
                     <p className="text-yellow-500 text-center">No stands found.</p>
                 )}
 
