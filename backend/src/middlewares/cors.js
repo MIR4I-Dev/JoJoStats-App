@@ -6,6 +6,7 @@ const ACCEPTED_ORIGINS = [
   "http://localhost:5173",
   "http://localhost:3000",
   "https://jojostats.netlify.app",
+  "https://jo-jo-stats-app.vercel.app"
 ];
 
 export const corsMiddleware = ({ acceptedOrigins = ACCEPTED_ORIGINS } = {}) =>
